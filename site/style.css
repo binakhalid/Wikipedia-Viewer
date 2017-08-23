@@ -1,0 +1,28 @@
+.block {
+    background-color: black;
+    opacity: .9;
+    color: white;
+    padding: 50px;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 15px;
+    font-size: 1.5em;
+    padding-bottom: 2%;
+  }
+  
+  .spacer {
+    padding: 4%;
+  }
+  
+  body {
+    background: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  a {
+    color: white;
+  }

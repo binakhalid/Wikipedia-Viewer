@@ -1,9 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Wikipedia Viewer</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	
 </head>
 <body>
 
+  <div class='page container-fluid'>
+    <div id='header'>
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#top">Wikipedia Search App</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href='https://en.wikipedia.org/wiki/Special:Random' target='blank'>Random Wikipedia Article</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://github.com/binakhalid"><span class="glyphicon glyphicon-user"></span> Bina FCC Project</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <a name="top"></a>
+    <div class='spacer'></div>
+    <div class='block'>
+      <h1 class='text-center'><span id='currentTemp'>Search Wikipedia</span></h1>
+      <input class='form-control' id=searchTerm>
+      <button id='search' type='button' class='btn btn-primary'>Submit</button>
+    </div>
+    <div class='spacer'></div>
+    <a name="page1"></a>
+    <div class='block'>
+      <h1 class='text-center'><span id='output'>Search Results</span></h1>
+    </div>
+    <div class='spacer'></div>
+    <div class="navbar navbar-fixed-bottom">
+      <a href="https://twitter.com/00MrSnow00" class="twitter-follow-button" data-show-count="false">Follow</a>
+      <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
 </body>
+
 </html>
